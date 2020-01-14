@@ -1,0 +1,153 @@
+<style>
+h2{
+              padding:10px;
+              color: black;
+              text-decoration: underline;
+              text-decoration-style:wavy;
+              font-size: 35px !important;
+              font-family:monospace;
+              text-shadow:0 4px 12px 0px black;
+              font-weight: bolder;
+}
+form{
+    height: auto;
+    margin: 0px;
+}
+input[type=text],input[type=email]{
+              font-family: cursive;
+              padding: 10px;
+              width: 60%;
+              transition: width 2s;
+              box-shadow: 0 3px 3px  black;
+              border-radius: 5px;
+              border: 0.5px solid blue;
+              margin: 0px 2px 15px 20px;
+          }
+input[type=text]:hover,input[type=text]:active,
+input[type=email]:hover,input[type=email]:active{
+              font-family: cursive;
+              padding: 10px;
+              width: 75%;
+              box-shadow: 0 3px 3px  black;
+              border-radius: 5px;
+              border: 2px solid blue;
+              margin: 0px 2px 15px 20px;
+          }
+input[type=submit]{
+              background-image:linear-gradient(#1193ff,#12e);
+              color: darkblue;
+              font-size: 15px;
+              font-weight: bolder;
+              float: right;
+              padding: 5px;
+              width: 100px;
+              margin: 10px 25px;
+              border: 0px;
+              border-radius: 4px;
+              box-shadow:0px 2px 6px green;
+          }
+textarea{
+              font-family: cursive;
+              padding: 10px;
+              width: 65%;
+              transition: width 2s;
+              height: 200px;
+              box-shadow: 0 3px 3px  black;
+              border-radius: 5px;
+              border: 0.5px solid blue;
+              margin: 0px 2px 15px 20px;
+              resize: none;
+}
+textarea:hover,textarea:active{
+              font-family: cursive;
+              padding: 10px;
+              width: 75%;
+              height: 300px;
+              box-shadow: 0 3px 3px  black;
+              border-radius: 5px;
+              border: 2px solid blue;
+              margin: 0px 2px 15px 20px;
+              resize: none;
+}
+    .s-text{
+              font-size: 18px;
+              font-weight: bold;
+              margin:20px; 
+              
+          }
+select{
+    border:2px solid blue
+}
+.stext{
+              font-size: 18px;
+              font-weight: bold;
+              margin:20px; 
+              
+          }
+.back-change{
+              background-color:darkgray;
+          }
+option{
+            height: 50px;
+          }
+.s-text{
+    color:black;
+    animation-name: s-text;
+    animation-duration:10s; 
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes s-text{
+    0%{color: #00ff66;}
+    25%{color: #ff0099;}
+    50%{color: #ff3300;}
+    75%{color: #110000;}
+    100%{color:#0000ff;}
+}
+    #id{
+        background-color: fuchsia;
+        width: 100%;
+        height: auto;
+        padding: auto;
+    }
+    #exc-artc{
+    background-color:greenyellow;
+    width: 50%;
+    height:auto;
+    float: left;
+    margin: auto;
+}
+</style>
+<div id="wrapper">
+<div id="exc-artc">
+    <form action="mailto(ibraheemsaheed@gmail.com)" method="post">
+    <h2 class="s-text">BITCOIN</h2>
+    <p class="stext"><input type="radio" value="sell" name="sell/buy">SELL BITCOIN &ensp;<input type="radio" value="buy" name="sell/buy">BUY BITCOIN</p>
+    <span class="s-text">Name:</span><br>
+    <input type="text" name="Name" placeholder="Name" required="require"> <br>
+    <span class="s-text">Amount(&#36;):</span><br>
+    <input type="text" name="Name" placeholder="Enter Amount" required="require"><br>
+    <span class="s-text">Amount in(&#36;):</span><br>
+    <input type="text" name="Name" placeholder="Amount you get in Dollar" required="require"><br>
+            <span class="s-text">Amount in (<strike>N</strike>):</span><br>
+    <input type="text" name="Name" placeholder="Enter Amount" required="require"><br>
+    <span class="s-text" >Bitcoin Wallet Address:</span><br>
+    <input type="text" name="Name" placeholder="8HQYWehpSk98hx2PrqAmdwzgiy9zC1DmbcG" require="required" ><br>
+    <span class="s-text">Choose Bank</span><br>
+    <select class="stext">
+    <option>First Bank</option>
+    <option  class="back-change" selected>Guaranty Trust Bank</option>
+    <option>Union Bank of Africa(UBA)</option>
+    <option class="back-change">Diamond Bank</option>
+    <option>Polaris Bank</option>
+    <option class="back-change">Eco Bank</option>
+    </select><br>
+    <span class="s-text">Account Name:</span><br>
+    <input type="text" name="Name" placeholder="Account Name" require="required" ><br>
+    <span class="s-text">Account Number</span><br>
+    <input type="text" name="Name" placeholder="Account Number" require="required" ><br>
+    <span class="s-text">Additional Info</span><br>
+   <textarea placeholder="Write Message...."></textarea><br>
+    <input type="submit" name="submit" value="SUMBIT">
+    </form>
+                </div></div>

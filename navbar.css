@@ -1,0 +1,23 @@
+body {
+padding-top: 0px;
+padding-bottom: 20px;
+background-color:greenyellow;
+background-position: center;
+height: 1000px;
+}
+
+.navbar {
+  margin:10px 0px;
+}
+imgslidez{
+    border-radius: 4px !important;
+    width: 100% !important;
+}
+.contz{
+    width: 73%;
+    margin:15px auto;
+    height: 700px;
+    padding: 10px;
+    background-color:aliceblue;
+    box-shadow: 0px 5px 16px 0px #445555;
+}
